@@ -1,31 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Kagwe Junior Café</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Menu - Kagwe Junior Cafe</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/menu.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
     <main>
-        <h2>Today's Specials</h2>
-        <ul>
-            <li>Grilled Tilapia - Ksh 700</li>
-            <li>Nyama Choma with Ugali - Ksh 500</li>
-            <li>Vegetarian Platter - Ksh 400</li>
-        </ul>
+        <section id="menu-section">
+            <h2>Today's Menu</h2>
+            <ul id="menu-list">
+                <!-- Dynamic Menu Items Here -->
+            </ul>
+        </section>
     </main>
     <footer>
-        <p>© 2024 Kagwe Junior Café. All rights reserved.</p>
+        <p>© 2024 Kagwe Junior Cafe. All rights reserved.</p>
     </footer>
 </body>
 </html>
